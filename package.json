@@ -1,0 +1,15 @@
+{
+  "name": "nginx-auth-req-ldap",
+  "version": "1.0.0",
+  "description": "Works as LDAP authentication provider for Nginx auth request module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jussi Holm",
+  "license": "ISC",
+  "dependencies": {
+    "basic-authentication": "^1.0.2",
+    "ldapauth": "^2.2.4"
+  }
+}

@@ -1,0 +1,13 @@
+module.exports = {
+    'http': {
+         'port': 7999
+    },
+    'ldap': {
+        'serverUrl': 'ldap://127.0.0.1',
+        'adminDn': 'cn=admin,dc=example,dc=com',
+        'adminPassword': 'hunter2',
+        'userSearchBase': 'ou=people,dc=example,dc=com',
+        'userSearchFilter': '(uid={{username}})',
+        'groupSearchBase': 'ou=access-groups,dc=example,dc=com',
+    }
+};
